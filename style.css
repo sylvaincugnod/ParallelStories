@@ -4,21 +4,17 @@
 }
 @fontface {
 	font-family: "DroidSerif";
-	src: url("./fonts/DroidSerif-Regular.ttf") format('truetype');
+	src: url("fonts/DroidSerif-Regular.ttf") format('truetype');
 }
 @fontface {
 	font-family: "DroidSerif";
-	src: url("./fonts/DroidSerif-Bold.ttf") format('truetype');
+	src: url("fonts/DroidSerif-Bold.ttf") format('truetype');
 	font-weight: bold;
 }
 @fontface {
 	font-family: "DroidSerif";
-	src: url("./fonts/DroidSerif-Italic.ttf") format('truetype');
+	src: url("fonts/DroidSerif-Italic.ttf") format('truetype');
 	font-style: italic;
-}
-
-h1 {
-	font-family: BigNoodleTitling;
 }
 
 body {
@@ -32,5 +28,27 @@ body {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	
+}
+
+#home h1 {
+	font-family: BigNoodleTitling;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	padding-top: 30vh;
+}
+
+#home p {
+	font-family: DroidSerif;
+	font-style: italic;
+	color: white;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+.divider {
+	background-color: white;
+	width: 30%;
 }
 
