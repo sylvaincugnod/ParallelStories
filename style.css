@@ -1,5 +1,31 @@
-body{
-	background-image: url("img/fond.jpg");
+@fontface {
+	font-family: "Big Noodle Titling";
+	src: url("./fonts/big_noodle_titling.ttf") format('truetype');
+}
+@fontface {
+	font-family: "DroidSerif";
+	src: url("./fonts/DroidSerif-Regular.ttf") format('truetype');
+}
+@fontface {
+	font-family: "DroidSerif";
+	src: url("./fonts/DroidSerif-Bold.ttf") format('truetype');
+	font-weight: bold;
+}
+@fontface {
+	font-family: "DroidSerif";
+	src: url("./fonts/DroidSerif-Italic.ttf") format('truetype');
+	font-style: italic;
+}
+
+body {
+	margin: 0;
+}
+
+#home {
+	height: 100%;
+	width: 100%;
+	background-image: url("./img/fond.jpg");
 	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	
 }
