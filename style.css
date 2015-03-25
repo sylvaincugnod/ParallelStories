@@ -27,7 +27,12 @@ body {
 	background-image: url("./img/fond.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	
+}
+
+@media (max-width: 500px) {
+	#home {
+		height: inherit;
+	}
 }
 
 #home h1 {
@@ -36,6 +41,8 @@ body {
 	color: white;
 	text-align: center;
 	padding-top: 30vh;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 #home p {
@@ -47,8 +54,22 @@ body {
 	margin: auto;
 }
 
-.divider {
-	background-color: white;
-	width: 30%;
+#home a {
+	width: auto;
 }
 
+#home a img {
+	display: block;
+	margin: 20px auto 0 auto;	
+	-ms-transform: scale(0.5) rotate(90deg); /* IE 9 */
+    -webkit-transform: scale(0.5) rotate(90deg); /* Chrome, Safari, Opera */
+    transform: scale(0.5) rotate(90deg);
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	width: 30%;
+	background: rgba(255,255,255,0.5);
+	margin-bottom: 20px;
+}
